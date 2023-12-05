@@ -1,0 +1,72 @@
+
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.centralizar {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.menu {
+
+    margin: 30px 0 30px 0;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff; /* Cor de fundo do menu */
+    
+    padding: 10px 0; /* Espaçamento interno no menu */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #0a0000; /* Cor dos links do menu */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    text-align: center;
+    color: #e00b52; /* Cor do título */
+}
+
+.paragrafoEsqueda,
+.paragrafoDireira {
+    max-width: 300px;
+    margin: 30px;
+    color: #0a0000;
+}
+
+.formularioContato,
+.login {
+    max-width: 300px;
+    margin: 50px 30px 50px;
+    color: #0a0000;
+
+}
+#table-mensagens {
+    border: 1px solid black;
+    width: 100%;
+    table-layout: fixed
+}
+
+tr, th, td {
+    border: 1px solid black;
+    height: 20px;
+    text-align: left;
+}
+a, a:visited {
+    text-decoration: none;
+    color: #0a0000;
+
+}
+
+a:hover {
+    color: rgb(37, 10, 189);
+}

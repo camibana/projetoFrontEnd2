@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/projetocss.css">
+    <title>Área Administrativa</title>
+</head>
+<body>
+    <div class="centralizar">
+        <div class="menu">
+            <a href="index.html">Home</a>  |
+            <a href="contato.html">Contato</a>  |
+            <a href="areaadmn.html">Área Administrativa</a>
+
+        </div>
+
+        <h1 class ="titulo">Área Admnistrativa</h1>
+
+        <div class="container">
+            
+            <div class="login">
+
+                <form id="login-form">
+                    <label>E-mail do Usuário: </label>
+                    <input type="text" id="emailLogin" name="email" required>
+                    <br>
+                    <label for="password">Senha: </label> <br>
+                    <input type="password" id="password" name="password" required>
+
+                    <br>
+                    <button type="button" id="botaoEntrar" onclick="fazerLogin()">Entrar</button>
+                </form>
+            </div>    
+        </div>
+
+    </div>
+   
+
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/jscript_login.js"></script>
+    
+</body>
+</html>
